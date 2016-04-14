@@ -1,0 +1,14 @@
+<!-- Copyright (c) Microsoft Corporation.  All rights reserved. -->
+<Module name="AMLFN">
+  <Owner>Microsoft Corporation</Owner>
+  <Description>Custom R module</Description>
+	<Language name="R" sourceFile="AMLFN.R" entryPoint="AMLFN" />
+	<Ports>
+		<Input id="AMLINPUT1" name="Dataset 1" type="DataTable">
+			<Description>Input dataset</Description>
+		</Input>
+		<Output id="dataset" name="Dataset" type="DataTable">
+			<Description>Output dataset</Description>
+		</Output>
+  </Ports>
+</Module>

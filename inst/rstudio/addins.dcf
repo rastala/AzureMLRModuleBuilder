@@ -1,0 +1,9 @@
+Name: Connect to Azure ML
+Description: Configure connection to Azure ML workspace
+Binding: connect_to_aml_gui
+Interactive: true
+
+Name: Deploy New Module
+Description: Deploy function as new module
+Binding: deploymodule_gui_driver
+Interactive: true
